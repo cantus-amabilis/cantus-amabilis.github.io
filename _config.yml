@@ -1,7 +1,7 @@
 # Site settings
-title: Cantus Amabilis Ensemble
-description: Cantus Amabilis
-cover: assets/images/radhakrishna.jpg
+title: Cantus Amabilis
+description: Cantus Amabilis Ensemble
+cover: assets/images/ensemble-picture.png
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
@@ -9,18 +9,14 @@ url: "https://cantus-amabilis.github.io/" # the base hostname & protocol for you
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
-facebook: facebook
-twitter: twitter
-github:  github
+facebook: cantus.amabilis
 
 #Additional Pages
 about: about
 contact: contact
 privacy-policy: privacy-policy
 
-
 permalink: /:title
-
 
 # Google Analytics
 analytics_id: ""
@@ -43,3 +39,4 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
+  - .idea
